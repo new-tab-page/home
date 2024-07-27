@@ -1,0 +1,120 @@
+body {
+    background-color: #3f384c;
+    font-family: 'Google Sans';
+    font-size: 13px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 48px;
+}
+
+.header-links {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header-links:hover {
+    text-decoration: underline;
+}
+
+.header-buttons {
+    position: relative;
+    top: 2px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.header-buttons:hover {
+    background-color: #4C4659;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    margin-bottom: 38px;
+}
+
+.searchbar {
+    background-color: #D5BBFF;
+    border: none;
+    font-family: 'Google Sans';
+    font-size: 16px;
+    outline: 0;
+    border-radius: 22px;
+    padding-inline-end: 87px;
+    padding-inline-start: 52px;
+    margin-bottom: 32px;
+    height: 44px;
+    width: 561px;
+}
+
+.searchbar::-webkit-search-cancel-button{
+    display: none;
+}
+
+.searchbar-icons {
+    position: absolute;
+    height: 7%;
+    width: 7%;
+    bottom: 154px;
+}
+
+.shortcuts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    width: 112px;
+}
+
+.shortcut:hover {
+    background-color: #534C5E;
+}
+
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.shortcut-icon {
+    background-color: #513A7A;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 12px;
+    height: 24px;
+    width: 24px;
+}
+
+.shortcut-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 18px;
+    height: 32px;
+    line-height: 16px;
+    margin-top: 6px;
+    padding: 2px 8px;
+    width: 88px;
+}
+
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+}
